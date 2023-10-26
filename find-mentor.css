@@ -8,6 +8,7 @@ body, html{
 /*  background-color: #f9f4eb;*/
   background-color: #e9d9d3;
 /*  box-sizing: border-box;*/
+/*  overflow-x: hidden;*/
 }
 
 * {
@@ -143,11 +144,12 @@ body, html{
 
 
 .main-img{
-  width: 101vw;
+  width: 100%;
+  overflow-x: hidden;
+  
+
 
 }
-
-
 
 
 
@@ -171,6 +173,7 @@ body, html{
   display: flex;
   flex-direction: row;
   margin-left: 65px;
+
 
 }
 
@@ -237,18 +240,20 @@ body, html{
   text-decoration: none;
   color: #f489b5; 
   font-family: futura;
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 30px;
   padding-right: 10px;
 
+}
 
-
+.video-link:hover{
+  text-decoration: underline;
 }
 
 .black-bar{
 
 
-  width: 101%;
+  width: 100%;
   height: 40vw;
   margin-top: -300px;
 /*  background-color: #fffad3;*/
@@ -278,15 +283,19 @@ background-color: #e9d9d3;
   color: #f489b5; 
   font-family: futura;
   font-size: 40px;
+  z-index: 100;
+
 
 
 }
 
 
 .end-graphic{
-  margin-top: -500px;
+  margin-top: -100px;
   width: 100%;
-  height: 60%;
+  height: auto;
+  z-index: -100;
+ 
 }
 
 

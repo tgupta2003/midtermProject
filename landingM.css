@@ -143,7 +143,8 @@ body, html{
 
 
 .main-img{
-  width: 101%;
+  width: 100%;
+   overflow-x: hidden;
 }
 
 
