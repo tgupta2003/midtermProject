@@ -266,6 +266,240 @@ body, html{
 
 }
 
+/*Media Queries*/
+
+/*text in mentee/mentor*/
+@media only screen and (max-width: 1427px){
+
+  .inside-text2{
+
+    margin-top: -450px;
+
+    font-size: 24px;
+
+  }
+
+  .inside-text1{
+
+    margin-top: -430px;
+
+    font-size: 24px;
+
+  }
+
+  .black-bar{
+ 
+  height: 47vw;
+
+}
+
+
+}
+
+
+
+/*#2*/
+@media only screen and (min-width: 1239px) and (max-width: 1317px){
+
+  .inside-text2{
+
+    margin-top: -410px;
+
+    font-size: 20px;
+
+  }
+
+  .inside-text1{
+
+    margin-top: -380px;
+
+    font-size: 20px;
+
+  }
+
+  .black-bar{
+ 
+  height: 55vw;
+
+}
+
+  
+
+
+
+
+}
+
+
+
+
+
+}
+
+@media only screen and (min-width: 1318px) and (max-width: 1238px){
+
+
+  .inside-text2, .inside-text1{
+
+    margin-top: -400px;
+
+    font-size: 20px;
+
+  }
+
+  .mentee-img, .mentor-img{
+
+    width: 90%;
+
+  }
+
+  .black-bar{
+ 
+  height: 55vw;
+
+}
+
+
+ 
+
+
+
+}
+
+@media only screen and (max-width: 1239px){
+
+    .m-m{
+       flex-direction: column;
+       padding-left: 130px;
+     
+    }
+
+    .mentor, .mentee{
+      width: 80%;
+    }
+
+
+    .mentor-img{
+      padding-top: 90px;
+/*      padding-left: 205px;*/
+      width: 90.5%;
+      padding-bottom: 90px;
+    }
+
+
+    .mentee-img{
+/*      padding-left: 200px;*/
+      width: 93%;
+    }
+
+    .end-graphic{
+    margin-top: 350px;
+   }
+
+
+
+   .inside-text1{
+
+     margin-top: -630px;
+     font-size: 35px;
+     padding-left: 30px;
+
+   }
+
+   .inside-text2{
+
+     margin-top: -710px;
+     font-size: 35px;
+
+
+   }
+
+    .black-bar{
+ 
+    height: 55vw;
+
+   }
+
+
+  
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1050px){
+
+
+  .inside-text1{
+
+     margin-top: -500px;
+     font-size: 25px;
+     padding-left: 30px;
+
+   }
+
+   .inside-text2{
+
+     margin-top: -600px;
+     font-size: 25px;
+
+
+   }
+
+   .black-bar{
+ 
+    height: 80vw;
+
+   }
+
+
+}
+
+
+@media only screen and (min-width: 528px) and (max-width: 921px){
+
+  body{
+    height: 0;
+  }
+
+  .m-m{
+    display: none;
+  }
+
+  .end-graphic{
+    display: none;
+  }
+
+
+  .black-bar{
+ 
+  height: 300vw;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
