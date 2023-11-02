@@ -269,6 +269,20 @@ body, html{
 /*Media Queries*/
 
 /*text in mentee/mentor*/
+
+
+
+
+@media only screen and (max-width: 1511px){
+
+  .main-img{
+    margin-top: 5px;
+  }
+
+}
+
+
+
 @media only screen and (max-width: 1427px){
 
   .inside-text2{
@@ -292,6 +306,7 @@ body, html{
   height: 47vw;
 
 }
+
 
 
 }
@@ -483,10 +498,38 @@ body, html{
 }
 
 
+}
+
+@media only screen and (max-width: 528px){
+  .m-m{
+    display: none;
+  }
+
+  .end-graphic{
+    display: none;
+  }
+
+  .bar-text{
+    margin-right: 15px;
+  }
+
+  .heading{
+    margin-right: 95px;
+
+  }
+
+  .black-bar{
+ 
+  height: 350vw;
 
 }
 
+  body{
+    height: 0;
 
+  }
+
+}
 
 
 

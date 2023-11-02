@@ -255,6 +255,98 @@ body, html{
 
 }
 
+@media only screen and (max-width: 1345px){
+
+  body{
+    height: 0;
+  }
+
+
+  .end-graphic{
+    display: none;
+  }
+
+  .bar-text{
+    margin-right: 15px;
+  }
+
+  .heading{
+    margin-right: 95px;
+
+  }
+
+
+  .black-bar{
+ 
+  height: 60vw;
+
+ }
+
+}
+
+@media only screen and (max-width: 1129px){
+
+   body{
+    height: 0;
+  }
+
+  .black-bar{
+ 
+  height: 80vw;
+
+ }
+
+
+}
+
+@media only screen and (max-width: 965px){
+
+   body{
+    height: 0;
+  }
+
+  .black-bar{
+ 
+  height: 120vw;
+
+ }
+
+}
+
+
+@media only screen and (max-width: 802px){
+
+   body{
+    height: 0;
+  }
+
+  .black-bar{
+ 
+  height: 200vw;
+
+ }
+
+}
+
+@media only screen and (max-width: 630px){
+
+   body{
+    height: 0;
+  }
+
+  .black-bar{
+ 
+  height: 350vw;
+
+ }
+
+}
+
+
+
+
+
+
 
 
 

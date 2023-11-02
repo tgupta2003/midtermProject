@@ -5,8 +5,9 @@ body, html{
 /*deletes space on sides and top*/
   margin: 0px;
   padding: 0px; 
-/*  background-color: #f9f4eb;*/
   background-color: #e9d9d3;
+
+
 /*  box-sizing: border-box;*/
 /*  overflow-x: hidden;*/
 }
@@ -185,14 +186,14 @@ body, html{
 /*  border-style: solid;*/
   display: flex;
 
+
 }
 
 .sq1{
   margin-left: 70px;
   width: 70%;
-
   background-color: black;
-  flex-direction: column;
+  flex-direction: row;
   border-radius: 30px;
 }
 
@@ -257,7 +258,7 @@ body, html{
   height: 40vw;
   margin-top: -300px;
 /*  background-color: #fffad3;*/
-background-color: #e9d9d3;
+ background-color: #aed1cf;
 
   display: flex;
 
@@ -291,12 +292,165 @@ background-color: #e9d9d3;
 
 
 .end-graphic{
-  margin-top: -100px;
+  margin-top: -123px;
   width: 100%;
   height: auto;
   z-index: -100;
  
 }
+
+
+
+
+/*------------------------------------------------------------*/
+
+
+/*Media Query*/
+
+@media only screen and (max-width: 1511px){
+
+  body {
+    height: 0px;
+
+  }
+
+  .main-img{
+    margin-top: 10px;
+    height: 100vh;
+
+  }
+
+  /* Make sure image doesn't get squished */
+
+  .img1, .img2, .img3{
+   max-width: 100%;
+   max-height: 100%;
+   object-fit: cover;
+
+ }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 1355px){
+
+  .end-graphic{
+    display:none;
+  }
+
+  .bottom-header{
+    padding-top: 50px;
+    padding-bottom: 150px;
+
+  }
+
+  .sq1{
+
+    height: 80vh;
+    width: 100%;
+
+  }
+
+  .black-bar{
+  height: 70vh;
+ }
+
+
+
+}
+
+@media only screen and (max-width: 1060px){
+
+ .info-box{
+  flex-direction: column;
+/*  margin-left: 23vw;*/
+  margin-left: 0;
+  width: 90%;
+
+  /*margin-left: 23vw;
+  width: 78%;*/
+
+
+ }
+
+.each-person{
+  margin-left: 23vw;
+  padding-bottom: 60px;
+
+}
+
+.bottom-header{
+    padding-top: 1550px;
+    padding-bottom: 250px;
+
+  }
+
+  body, html{
+
+    background-color: #aed1cf;
+
+  }
+
+
+
+  @media only screen and (max-width: 670px){
+
+
+  .info-box{
+
+    width: 100%;
+    margin-left: -20px;
+
+ }
+
+ .sq1{
+
+    height: 110vh;
+    width: 100%;
+
+  }
+
+  .img1, .img2, .img3{
+   padding-right: 10px;
+
+ }
+
+ .bottom-header{
+/*    padding-top: 1770px;*/
+/*    padding-bottom: -250px;*/
+    margin-top: 1180px;
+
+
+  }
+
+  .black-bar{
+    padding-bottom: 400px;
+  }
+
+
+
+ 
+
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+}
+
+
+
 
 
 
